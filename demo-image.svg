@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title description">
+  <title id="title">Sun over green hills</title>
+  <desc id="description">A simple drawing with a yellow sun, blue sky, and two green hills.</desc>
+  <rect width="640" height="360" fill="#dcecff"/>
+  <circle cx="500" cy="90" r="48" fill="#f3c64e"/>
+  <path d="M0 260 Q150 140 320 260 T640 250 V360 H0Z" fill="#83b887"/>
+  <path d="M0 310 Q170 210 350 300 T640 285 V360 H0Z" fill="#579b67"/>
+</svg>

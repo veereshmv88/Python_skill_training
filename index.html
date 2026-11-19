@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HTML Features</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="page-header">
+        <h1>HTML</h1>
+        <p>A simple example of common website parts, one by one.</p>
+        <nav aria-label="Page sections">
+            <a href="#text">Text</a>
+            <a href="#links-lists">Links and lists</a>
+            <a href="#image">Image</a>
+            <a href="#video">Video</a>
+            <a href="#form">Form</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="feature-box" id="text">
+            <h2>1. Headings and paragraphs</h2>
+            <h3>This is a smaller heading</h3>
+            <p>Headings organize a page. Paragraphs hold regular text.</p>
+            <button id="hello-button" type="button">Try a button</button>
+            <p id="button-message" aria-live="polite"></p>
+        </section>
+
+        <section class="feature-box" id="links-lists">
+            <h2>2. Links and lists</h2>
+            <p><a href="#form">This link takes you to the form below.</a></p>
+            <h3>A short list</h3>
+            <ul>
+                <li>Write a heading</li>
+                <li>Add a paragraph</li>
+                <li>Put content in a box</li>
+            </ul>
+        </section>
+
+        <section class="feature-box" id="image">
+            <h2>3. An image</h2>
+            <p>The image below is stored with this website.</p>
+            <img class="demo-image" src="demo-image.svg" alt="A simple drawing of a sun over green hills">
+        </section>
+
+        <section class="feature-box" id="video">
+            <h2>4. A video</h2>
+            <p>Use the controls to play or pause this sample video.</p>
+            <video class="demo-video" controls preload="metadata">
+                <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
+                Your browser does not support HTML video.
+            </video>
+        </section>
+
+        <section class="feature-box" id="form">
+            <h2>5.Form</h2>
+            <p>Fill in the fields and press submit. This demo does not send or save your information.</p>
+            <form id="demo-form">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" required>
+
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required>
+
+                <label for="topic">Favorite topic</label>
+                <select id="topic" name="topic">
+                    <option>HTML</option>
+                    <option>Images</option>
+                    <option>Video</option>
+                </select>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+
+                <button type="submit">Submit form</button>
+            </form>
+            <p id="form-message" aria-live="polite"></p>
+        </section>
+    </main>
+
+    <footer class="page-footer">
+        <p>BYE</p>
+    </footer>
+
+    
+</body>
+</html>
